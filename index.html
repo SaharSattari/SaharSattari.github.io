@@ -12,36 +12,31 @@
             background-color: #ffffff;
             color: #000000;
             margin: 0;
-            padding: 0;
+            padding: 40px;
             display: flex;
             justify-content: center;
-            align-items: center;
-            min-height: 100vh;
         }
 
         .content {
-            max-width: 1200px;
-            padding: 40px;
             display: flex;
-            flex-direction: row;
-            gap: 80px;
-            /* increased from 50px to push photo further */
-            align-items: flex-start;
+            flex-wrap: wrap;
+            /* allows wrapping */
+            max-width: 1000px;
+            gap: 40px;
         }
 
         .text {
             flex: 2;
+            min-width: 300px;
         }
 
         .photo {
             flex: 1;
-            padding-left: 20px;
-            /* optional extra spacing */
+            min-width: 150px;
         }
 
         .photo img {
-            max-width: 200px;
-            height: auto;
+            width: 160px;
             border-radius: 8px;
         }
 
@@ -81,33 +76,22 @@
                 <a href="https://bme.ubc.ca/" target="_blank">Department of Biomedical Engineering</a>
             </p>
             <p>
-                Student researcher at
-                <a href="https://simpl.mech.ubc.ca/" target="_blank">SimPL lab</a> and
+                Student researcher at <a href="https://simpl.mech.ubc.ca/" target="_blank">SimPL lab</a> and
                 <a href="https://pal.rehab.med.ubc.ca/" target="_blank">Perception-Action lab</a>
             </p>
 
             <div class="spacer"></div>
 
-            <p>
-                You can find my CV <a href="cv.pdf" target="_blank">here</a>.
-            </p>
-            <p>
-                Email: <a href="mailto:ssattari@student.ubc.ca">ssattari@student.ubc.ca</a>
-            </p>
-            <p>
-                <a href="https://www.linkedin.com/in/saharsattari77/" target="_blank">LinkedIn</a>
-            </p>
-            <p>
-                <a href="https://github.com/saharsattari" target="_blank">GitHub</a>
-            </p>
-            <p>
-                <a href="https://scholar.google.com/citations?user=YOURID" target="_blank">Google Scholar</a>
-            </p>
+            <p>You can find my CV <a href="cv.pdf" target="_blank">here</a>.</p>
+            <p>Email: <a href="mailto:ssattari@student.ubc.ca">ssattari@student.ubc.ca</a></p>
+            <p><a href="https://www.linkedin.com/in/saharsattari77/" target="_blank">LinkedIn</a></p>
+            <p><a href="https://github.com/saharsattari" target="_blank">GitHub</a></p>
+            <p><a href="https://scholar.google.com/citations?user=YOURID" target="_blank">Google Scholar</a></p>
         </div>
 
         <div class="photo">
             <img src="saharsattari.jpeg" alt="Sahar Sattari headshot"
-                onerror="this.alt='Photo not found. Make sure saharsattari.jpeg is uploaded.'">
+                onerror="this.alt='Photo not found. Check filename.'">
         </div>
     </div>
 </body>
