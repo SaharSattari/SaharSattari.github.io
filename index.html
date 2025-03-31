@@ -8,35 +8,25 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            font-size: 16px;
+            font-size: 17px;
+            /* nice middle ground */
             background-color: #ffffff;
             color: #000000;
-            margin: 0;
-            padding: 40px;
-            display: flex;
-            justify-content: center;
+            margin: 40px auto;
+            max-width: 1000px;
+            line-height: 1.6;
         }
 
-        .content {
+        .header {
             display: flex;
-            flex-wrap: wrap;
-            /* allows wrapping */
-            max-width: 1000px;
+            justify-content: space-between;
+            align-items: flex-start;
             gap: 40px;
         }
 
-        .text {
-            flex: 2;
-            min-width: 300px;
-        }
-
-        .photo {
-            flex: 1;
-            min-width: 150px;
-        }
-
         .photo img {
-            width: 160px;
+            max-width: 180px;
+            height: auto;
             border-radius: 8px;
         }
 
@@ -55,17 +45,17 @@
         }
 
         p {
-            margin-bottom: 10px;
+            margin-bottom: 12px;
         }
 
         .spacer {
-            margin-top: 20px;
+            margin-top: 25px;
         }
     </style>
 </head>
 
 <body>
-    <div class="content">
+    <div class="header">
         <div class="text">
             <h1>Sahar Sattari</h1>
             <p>
@@ -90,8 +80,7 @@
         </div>
 
         <div class="photo">
-            <img src="saharsattari.jpeg" alt="Sahar Sattari headshot"
-                onerror="this.alt='Photo not found. Check filename.'">
+            <img src="saharsattari.jpeg" alt="Sahar Sattari headshot">
         </div>
     </div>
 </body>
