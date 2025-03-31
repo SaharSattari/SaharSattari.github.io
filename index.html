@@ -9,7 +9,6 @@
         body {
             font-family: Arial, sans-serif;
             font-size: 16px;
-            /* Slightly smaller body text */
             background-color: #ffffff;
             color: #000000;
             margin: 0;
@@ -25,7 +24,8 @@
             padding: 40px;
             display: flex;
             flex-direction: row;
-            gap: 50px;
+            gap: 80px;
+            /* increased from 50px to push photo further */
             align-items: flex-start;
         }
 
@@ -35,6 +35,8 @@
 
         .photo {
             flex: 1;
+            padding-left: 20px;
+            /* optional extra spacing */
         }
 
         .photo img {
@@ -45,7 +47,6 @@
 
         h1 {
             font-size: 24px;
-            /* Slightly bigger name */
             margin-bottom: 10px;
         }
 
@@ -100,13 +101,13 @@
                 <a href="https://github.com/saharsattari" target="_blank">GitHub</a>
             </p>
             <p>
-                <a href="https://scholar.google.ca/citations?user=jktdOYEAAAAJ&hl=en" target="_blank">Google Scholar</a>
+                <a href="https://scholar.google.com/citations?user=YOURID" target="_blank">Google Scholar</a>
             </p>
         </div>
 
         <div class="photo">
-            <img src="saharsattari.jpg" alt="Sahar Sattari headshot"
-                onerror="this.alt='Photo not found. Make sure sahar.jpg is uploaded.'">
+            <img src="saharsattari.jpeg" alt="Sahar Sattari headshot"
+                onerror="this.alt='Photo not found. Make sure saharsattari.jpeg is uploaded.'">
         </div>
     </div>
 </body>
