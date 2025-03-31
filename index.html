@@ -8,7 +8,8 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            font-size: 18px;
+            font-size: 16px;
+            /* Slightly smaller body text */
             background-color: #ffffff;
             color: #000000;
             margin: 0;
@@ -20,7 +21,7 @@
         }
 
         .content {
-            max-width: 1200px;  /* increased width */
+            max-width: 1200px;
             padding: 40px;
             display: flex;
             flex-direction: row;
@@ -43,7 +44,8 @@
         }
 
         h1 {
-            font-size: 20px;
+            font-size: 24px;
+            /* Slightly bigger name */
             margin-bottom: 10px;
         }
 
@@ -71,7 +73,8 @@
         <div class="text">
             <h1>Sahar Sattari</h1>
             <p>
-                PhD student, <a href="https://www.ubc.ca/" target="_blank">University of British Columbia</a>, Vancouver, Canada
+                PhD student, <a href="https://www.ubc.ca/" target="_blank">University of British Columbia</a>,
+                Vancouver, Canada
             </p>
             <p>
                 <a href="https://bme.ubc.ca/" target="_blank">Department of Biomedical Engineering</a>
@@ -102,7 +105,8 @@
         </div>
 
         <div class="photo">
-            <img src="sahar.jpg" alt="Sahar Sattari">
+            <img src="sahar.jpg" alt="Sahar Sattari headshot"
+                onerror="this.alt='Photo not found. Make sure sahar.jpg is uploaded.'">
         </div>
     </div>
 </body>
